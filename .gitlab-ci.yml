@@ -1,2 +1,4 @@
-include:
-  - template: Jobs/SAST.gitlab-ci.yml
+nclude:
+  - component: vc.azurenight.com/gitlab/build-component/build@v1.1.0
+
+
