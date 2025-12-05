@@ -1,4 +1,4 @@
-nclude:
+include:
   - component: vc.azurenight.com/gitlab/build-component/build@v1.1.0
 
 
