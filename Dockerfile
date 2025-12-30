@@ -1,4 +1,4 @@
-FROM debian:trixie-slim@sha256:e711a7b30ec1261130d0a121050b4ed81d7fb28aeabcf4ea0c7876d4e9f5aca2
+FROM debian:trixie-slim@sha256:def4126bd4619cd54d179f12ed9eb5438cd7b897e9cf523b5a3d3488274ed8aa
 
 RUN apt update \
     && apt install -y apt-transport-https dirmngr p7zip-full curl gnupg ca-certificates wget \
