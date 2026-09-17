@@ -1,7 +1,7 @@
 FROM debian:trixie-slim@sha256:3a39a0592364683e6bab97937b72cad5a8fa6dcbbee90edb3bb48c7f8e94f258
 
 RUN apt update \
-    && apt install -y apt-transport-https dirmngr p7zip-full curl gnupg ca-certificates wget \
+    && apt install -y apt-transport-https dirmngr p7zip-full curl gnupg ca-certificates wget zip unzip \
     && wget https://packages.microsoft.com/config/debian/13/packages-microsoft-prod.deb -O packages-microsoft-prod.deb \
     && dpkg -i packages-microsoft-prod.deb \
     && rm packages-microsoft-prod.deb \
